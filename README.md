@@ -20,3 +20,12 @@ Unit inconsistency handling (e.g. °C vs °F in Temp)
 
 Breakout Challenge
 Each group cleans one assigned column (DBP, pulse, RR, Fio2, or MAP) and presents their approach.
+
+# Day 3
+
+Turning the cleaned triage dataset into clinically meaningful plots. The rule: every plot must answer a specific clinical question — not just look nice.
+
+What's covered
+Bar plots, histograms, scatter plots, and box plots with matplotlib
+Adding clinical reference lines (e.g. GCS ≤ 8, bradycardia/tachycardia thresholds)
+Saving and sharing plots
