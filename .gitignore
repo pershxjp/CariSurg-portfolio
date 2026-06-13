@@ -1,0 +1,65 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Jupyter runtime / outputs
+.jupyter/
+profile_default/
+ipython_config.py
+
+# Testing / coverage
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Colab / Google Drive mounts
+.drive/
+.colab/
+gdrive/
+
+# Misc
+*.log
+*.sqlite3
+*.db
+*.bak
+*.swp
+
+# Sensitive or large data (do not commit patient-identifiable information)
+# Add dataset filenames or folders here if needed, e.g.:
+# data/private_dataset.csv
+# data/sensitive/
