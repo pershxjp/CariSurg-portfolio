@@ -57,3 +57,26 @@ This repository documents early-stage analysis and a short proposal intended for
 **Pershawn Jn Pierre** — Computer Information Technology student from Saint Lucia. Interests: **AI**, **healthcare technology**, and **robotics**.  
 
 ---
+---
+### Week 5 — Data Exploration & Feasibility (AI-Assisted Triage)
+
+- **`notebooks/`** — three Week 5 notebooks:
+  - Clinical Data Literacy — column-by-column walkthrough of the triage
+    dataset (feature families, vitals reference ranges, chief-complaint
+    structure, target definition).
+  - Data Profiling — measures data types, missingness, distributions, and
+    outliers to test whether the dataset is good enough to model.
+  - Exploratory Visualisation — builds the data-quality dashboard
+    (missingness, ESI class balance, demographics, chief complaints,
+    vitals-by-ESI, correlation).
+- **`docs/Feasibility Memo — Outline.pdf`** — draft feasibility memo answering
+  whether the dataset is good enough to build a triage model on: verdict,
+  dataset summary, top quality concerns, reasons to proceed, and caveats.
+- **`docs/missingness_heatmap.png`** — missingness map of the structured
+  columns before cleaning, referenced in the feasibility memo.
+- **Dataset not committed.** The source CSV
+  (`yaleemmlc_admissionprediction_triage.csv`) is a de-identified real
+  clinical dataset, excluded via `.gitignore` due to file size and its
+  clinical origin. It is not synthetic, and standard data-handling
+  discipline (no raw rows pasted into external tools, summary statistics
+  only) applies to this dataset even though it has been de-identified.
