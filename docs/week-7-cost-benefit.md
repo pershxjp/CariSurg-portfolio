@@ -1,7 +1,7 @@
 # Cost-Benefit Memo: Phase 3 Model Selection for ED Triage
 
 **To:** Dr. De Fretias; The ED Board; Martina Griffith, Clinical IT Lead
-**From:** [Student], Clinical-AI Trainee Team
+**From:** Pershawn Jn Pierre
 **Date:** Week 7
 **Re:** Whether to carry a more complex model into Phase 3, or retain the Logistic Regression baseline
 
