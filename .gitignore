@@ -66,3 +66,14 @@ gdrive/
 
 yaleemmlc_admissionprediction_triage.csv
 
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
