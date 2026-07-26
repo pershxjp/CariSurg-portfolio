@@ -23,10 +23,11 @@ sys.path.insert(0, str(ROOT))
 from src.data import (
     load_raw_data,
     clean_triage_data,
-    add_clinical_features,
     get_features_and_target,
     split_data,
 )
+
+from src.features import add_clinical_features
 
 from src.model import (
     build_logistic_regression,
